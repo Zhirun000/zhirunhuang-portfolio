@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ZHIRUN'S ARCHIVE</title>
+    <meta
+      name="description"
+      content="A metallic silver archive-style personal portfolio for a multidisciplinary designer."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <section class="splash-screen" id="splash-screen" aria-label="Opening animation">
+      <img src="%E5%BC%80%E9%A1%B5/%E5%B0%81%E9%9D%A2-09.png?v=20260530182358" alt="Zhirun Huang opening mark">
+      <h1>ZHIRUN HUANG</h1>
+    </section>
+
+    <header class="topbar" aria-label="Studio status">
+      <a class="logo" href="#top" aria-label="ZHIRUN'S ARCHIVE home">ZHIRUN'S ARCHIVE</a>
+      <div class="status-line">
+        <span>Boston</span>
+        <span id="boston-weather">--F</span>
+        <span id="local-time">BOS 00:00:00</span>
+        <span id="remote-time">Xiamen 00:00:00</span>
+        <span class="live"><i aria-hidden="true"></i>Live</span>
+      </div>
+      <button class="intro-entry" id="intro-entry" type="button">About Zhirun</button>
+    </header>
+
+    <section class="cover-reel" aria-label="Featured project covers">
+      <div class="cover-window">
+        <div class="cover-media" id="cover-media"></div>
+        <div class="cover-dots" id="cover-dots" aria-label="Cover pagination"></div>
+      </div>
+    </section>
+
+    <main id="top" class="archive-shell">
+      <section class="archive-grid" id="archive-grid" aria-label="Project archive"></section>
+    </main>
+
+    <section class="closing-mark" aria-label="Closing archive mark">
+      <img src="%E5%BC%80%E9%A1%B5/%E5%B0%81%E9%9D%A2-09.png?v=20260530182358" alt="Zhirun Huang closing mark">
+    </section>
+
+    <aside class="hover-preview" id="hover-preview" aria-hidden="true">
+      <div class="preview-image" id="preview-image"></div>
+      <div class="preview-meta">
+        <span id="preview-index">01</span>
+        <strong id="preview-title">Archive File</strong>
+        <small id="preview-client">Studio</small>
+      </div>
+    </aside>
+
+    <section class="work-window" id="work-window" aria-label="Project preview window" aria-hidden="true">
+      <div class="window-bar" id="window-bar">
+        <span class="window-grip" aria-hidden="true"></span>
+        <button class="window-title" id="window-title" type="button">Archive File</button>
+        <span class="window-count" id="window-count">(1/67)</span>
+        <button class="window-close" id="window-close" type="button">[CLOSE]</button>
+      </div>
+      <div class="window-stage">
+        <div class="window-art" id="window-art"></div>
+      </div>
+    </section>
+
+    <section class="fullscreen-work" id="fullscreen-work" aria-label="Fullscreen project preview" aria-hidden="true">
+      <button class="fullscreen-close" id="fullscreen-close" type="button">[CLOSE]</button>
+      <div class="fullscreen-art" id="fullscreen-art"></div>
+      <div class="fullscreen-caption">
+        <span id="fullscreen-index">01</span>
+        <strong id="fullscreen-title">Archive File</strong>
+        <small id="fullscreen-client">Studio</small>
+      </div>
+    </section>
+
+    <section class="intro-panel" id="intro-panel" aria-label="Personal introduction" aria-hidden="true">
+      <div class="window-bar">
+        <span class="window-grip" aria-hidden="true"></span>
+        <strong class="intro-panel-title">ZHIRUN HUANG</strong>
+        <button class="window-close" id="intro-close" type="button">[CLOSE]</button>
+      </div>
+      <div class="intro-body">
+        <figure class="intro-photo">
+          <img src="./个人信息/照片/2e07f0a5ec84478f1c2441d023c5fe61.jpg?v=20260529162704" alt="Portrait of Zhirun Huang">
+        </figure>
+        <span class="intro-kicker">Personal Index</span>
+        <p>
+          Zhirun Huang is a designer whose work bridges architecture, landscape
+          architecture, and emerging technologies. He is interested in infrastructure,
+          ecological systems, and future environments, exploring how design can connect
+          people, technology, and nature across multiple scales.
+        </p>
+        <div class="intro-meta">
+          <span>Based in Boston</span>
+          <span>Xiamen connected</span>
+          <span>Available for selected collaborations</span>
+        </div>
+        <div class="intro-actions" aria-label="Personal links">
+          <a href="./Resume/CV2025.pdf">Resume</a>
+          <a href="https://www.linkedin.com/in/zhirun-huang-778806315">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="filter-dock" aria-label="Archive filters">
+      <span class="dock-handle" aria-hidden="true"></span>
+      <button class="filter is-active" type="button" data-filter="All">All</button>
+      <button class="filter" type="button" data-filter="Architecture">Architecture</button>
+      <button class="filter" type="button" data-filter="Urban Design">Urban Design</button>
+      <button class="filter" type="button" data-filter="Landscape">Landscape</button>
+      <button class="filter" type="button" data-filter="Brand">Brand</button>
+      <button class="filter" type="button" data-filter="Practice">Practice</button>
+      <button class="filter" type="button" data-filter="Research">Research</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
