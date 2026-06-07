@@ -955,11 +955,7 @@ button {
   border: 0;
   border-radius: 0;
   overflow: hidden;
-  background:
-    linear-gradient(132deg, rgba(255, 255, 255, 0.9) 0 8%, transparent 24%),
-    linear-gradient(74deg, transparent 0 44%, rgba(255, 255, 255, 0.46) 48%, transparent 55%),
-    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.18) 0 1px, rgba(120, 130, 126, 0.07) 1px 2px, transparent 2px 7px),
-    linear-gradient(180deg, #ffffff 0%, #e7ece8 28%, #c2cbc7 62%, #98a39f 100%);
+  background: #edf1ee;
   clip-path: polygon(var(--panel-bevel) 0, calc(100% - var(--panel-bevel)) 0, 100% var(--panel-bevel), 100% calc(100% - var(--panel-bevel)), calc(100% - var(--panel-bevel)) 100%, var(--panel-bevel) 100%, 0 calc(100% - var(--panel-bevel)), 0 var(--panel-bevel));
   box-shadow:
     0 24px 72px rgba(75, 84, 81, 0.16),
@@ -986,6 +982,7 @@ button {
 
 .intro-body {
   padding: 28px;
+  background: #edf1ee;
 }
 
 .intro-photo {
